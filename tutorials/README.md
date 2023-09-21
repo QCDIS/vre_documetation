@@ -3,10 +3,9 @@ This is a quick start guide to use basic functionality of the  LifeWatch VRE Pla
 and Notebook as a Virtual Research Environment (NaaVRE).
 
 This is a screencast of the tutorial:
-![[Screencast](videos/GettingStartedVRE.webm)
 
-<video width="320" height="240" controls>
-  <source src="videos/GettingStartedVRE.webm" type="video/webm">
+<video width="640" height="480" controls>
+  <source src="https://github.com/QCDIS/vre_documetation/blob/ss-2023/tutorials/videos/GettingStartedVRE.webm" type="video/webm">
 </video>
 
 
