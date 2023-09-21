@@ -1,3 +1,37 @@
+# Virtual Research Environments
+
+Virtual research environments (VREs) provide user-centric support in the lifecycle of research activities, for example, 
+discovering and accessing research assets or composing and executing application workflows.
+
+# Tutorials
+
+This section of the documentation contains step-by-step tutorials that help outline the capabilities of Virtual Research 
+Environments (VRE) and how you can achieve specific aims. The tutorials are recommended if you do not have much 
+experience with VRE.
+
+[Tutorials](tutorials/README.md)
+    Getting Started
+
+
+
+
+
+## Platform as A Service VRE (PaaSVRE)
+
+
+The LifeWatch VRE platform is a Platform as a Service (PaaS) that provides a set of tools and services to support custom 
+VREs.
+
+# Getting started with PaaSVRE 
+Select one of the VLabs: 
+![text](images/vre1.png)
+
+If you are not logged in you will be redirected to the login page:
+
+
+
+
+## NaaVRE
 # Getting started with NaaVRE
 
 This is a quick start guide to use the NaaVRE.
@@ -215,3 +249,5 @@ Fill in the perimeters as shown below and the necessary webdav credentials and c
 When the workflow completes its execution  it should look like this:
 
 <img src="https://user-images.githubusercontent.com/9680609/175033417-44e16626-5a73-449a-88af-2cf21f0599e5.png" width="50%" height="50%">
+
+
