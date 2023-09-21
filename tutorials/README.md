@@ -4,9 +4,7 @@ and Notebook as a Virtual Research Environment (NaaVRE).
 
 This is a screencast of the tutorial:
 
-<video width="640" height="480" controls>
-  <source src="https://github.com/QCDIS/vre_documetation/blob/ss-2023/tutorials/videos/GettingStartedVRE.webm" type="video/webm">
-</video>
+[GettingStartedVRE.webm](https://github.com/QCDIS/vre_documetation/assets/9680609/8dd590ea-3276-4e24-a986-c47454786a0c)
 
 
 ## Platform as A Service VRE (PaaSVRE)
