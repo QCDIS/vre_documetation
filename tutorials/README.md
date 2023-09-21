@@ -57,8 +57,68 @@ the 'Create' button.
 If the containerization is successful you will see a pop-up message.
 ![containerize](images/containerize_2.png)
 
+Repeat the same process for the second cell. 
+![containerize](images/containerize_3.png)
+If you get an error message like the one below, clear the 'Base Image' selection and re set it to 'miniconda3'.
+![containerize](images/containerize_error_1.png)
 
+### Compose a Workflow
+To compose a workflow open a new Launcher page and click on the 'Experimenter Manager' icon.
+![Experimenter Manager](images/experimenter_manager_1.png)
+On the Experiment Manager page on the bottom right click on the '+' button select the 'Cells Catalog'.
+![Experimenter Manager](images/experimenter_manager_2.png)
+From the 'Cells Catalog' select the first cell you just containerized scroll down and click on the 'Add TO WORKSPACE' 
+button.
+![Experimenter Manager](images/experimenter_manager_3.png)
+Repeat the same process for the second cell.
 
+Drag and drop the cell containing the name 'input list' to the composer on the main panel. Next drag and drop the 
+special component called 'Splitter' from the Parallelization section and connect the 'input list' cell with the 
+'Splitter'. Finally, drag and drop the cell containing the name 'process the list' to the composer and connect the 
+'Splitter' with the 'process the list' cell. In the end the workflow should look like the one below.
+![Experimenter Manager](images/experimenter_manager_4.png)
 
+---
+
+ **NOTE**
+
+ It is important to note that direction of the connections between the cells is important as it indicates the flow of ]
+ data dependencies between the cells. Therefore, the flow should be: 'input list' -> 'Splitter' -> 'process the list'.
+
+---
+
+### Run the Workflow
+
+To run the workflow you must first make sure that your cells have being containerized. This usually takes a few minutes.
+You can check on the progress of the containerization by opening the 
+[GitHub Actions page](https://github.com/QCDIS/NaaVRE-cells-summerschool-23/actions).
+
+---
+
+ **NOTE**
+
+ The actions in the GitHub Actions page are triggered automatically when you containerize a cell. All cell from all users
+ are containerized in the same GitHub Actions page. 
+
+---
+
+To execute the workflow click on the '+' button in the bottom right corner of the page and select the 'Execute Workflow' 
+option.
+![Experimenter Manager](images/experimenter_manager_2.png)
+![Experimenter Manager](images/experimenter_manager_5.png)
+Select the 'Execute' button. If the workflow submission is successful you will see a pop-up message. 
+![Experimenter Manager](images/experimenter_manager_6.png)
+To check the progress of the workflow click on the link slight on the pop-up message. This will take you to the workflow
+engine page.
+![Workflow Engine](images/workflow_engine_1.png)
+From there you can sign in and check the progress of the workflow by selecting the 'If your organisation has configured 
+single sign-on:' option
+![Workflow Engine](images/workflow_engine_2.png)
+In the login page enter the same credentials you used to sign in to the VRE PaaS. If you are directed to an empty page
+go back to the 'Experiment Manager' page and click on the link again. 
+![Workflow Engine](images/workflow_engine_3.png)
+This time you should be able to see the progress of
+the workflow execution.
+![Workflow Engine](images/workflow_engine_4.png)
 
 # Add Custom Module Names
