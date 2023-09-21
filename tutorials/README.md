@@ -2,6 +2,14 @@
 This is a quick start guide to use basic functionality of the  LifeWatch VRE Platform as a Service (PaaSVRE) 
 and Notebook as a Virtual Research Environment (NaaVRE).
 
+This is a screencast of the tutorial:
+![[Screencast](videos/GettingStartedVRE.webm)
+
+<video width="320" height="240" controls>
+  <source src="videos/GettingStartedVRE.webm" type="video/webm">
+</video>
+
+
 ## Platform as A Service VRE (PaaSVRE)
 Navigate to the LifeWatch VRE Platform as a Service (VRE PaaS) and click on the 'Sign in' button.
 ![Sign in](images/sign_in_vre_1.png)
