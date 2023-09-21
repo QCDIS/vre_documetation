@@ -1,7 +1,10 @@
 # Virtual Research Environments
 
 Virtual research environments (VREs) provide user-centric support in the lifecycle of research activities, for example, 
-discovering and accessing research assets or composing and executing application workflows.
+discovering and accessing research assets or composing and executing application workflows. The LifeWatch VRE platform 
+provides a workflow management system, a data management framework, and tools for enabling collaboration among users. 
+
+
 
 # Tutorials
 
@@ -21,8 +24,26 @@ experience with VRE.
 The LifeWatch VRE platform is a Platform as a Service (PaaS) that provides a set of tools and services to support custom 
 VREs.
 
+### Main Features
+
+* A user-friendly interface to the LifeWatch VRE platform
+* Overview of the running Virtual Labs (VLs)
+* Overview of executed workflows
+* Community based data products catalog
+* Community based geographical data products catalog
+
 
 ## Notebook as a Virtual Research Environment (NaaVRE)
 
 The Notebook as a Virtual Research Environment (NaaVRE) is a set of tool build on top of JupiterLab that provides a
-user-friendly interface to the LifeWatch VRE platform. The NaaVRE provides a set of tools to support the creation of
+user-friendly interface to the LifeWatch VRE platform. 
+
+### Main Features
+* Containerization of cells 
+* Workflow composition based on containerized cells
+* Execution of containerized cells on a workflow engine
+* Search for notebooks
+
+### Supported Kernels
+* Python 
+* Rscript 
