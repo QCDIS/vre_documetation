@@ -31,6 +31,9 @@ VREs.
 * Overview of executed workflows
 * Community based data products catalog
 * Community based geographical data products catalog
+* Collaboration tools
+  * Video conferencing with [jupyter-videochat](https://jupyter-videochat.readthedocs.io/en/latest/)
+  * Git integration with [jupyterlab-git](https://pypi.org/project/jupyterlab-git/) 
 
 
 ## Notebook as a Virtual Research Environment (NaaVRE)
