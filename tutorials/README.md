@@ -1,13 +1,13 @@
 # Getting Started
-This is a quick start guide to use basic functionality of the  LifeWatch VRE Platform as a Service (PaaSVRE) 
-and Notebook as a Virtual Research Environment (NaaVRE).
+This is a quick start guide to use basic functionality of the  LifeWatch Notebook as a Virtual Research Environment 
+(NaaVRE) Platform and Notebook as a Virtual Research Environment (NaaVRE).
 
 This is a screencast of the tutorial:
 
 [GettingStartedVRE.webm](https://github.com/QCDIS/vre_documetation/assets/9680609/8dd590ea-3276-4e24-a986-c47454786a0c)
 
 
-## Platform as A Service VRE (PaaSVRE)
+## Notebook as a Virtual Research Environment (NaaVRE) Platform
 Navigate to the LifeWatch VRE Platform as a Service (VRE PaaS) and click on the 'Sign in' button.
 ![Sign in](images/sign_in_vre_1.png)
 Click on the 'Sign in with Keycloak' button.

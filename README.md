@@ -18,7 +18,7 @@ experience with VRE.
 
 
 
-## Platform as A Service VRE (PaaSVRE)
+## Notebook as a Virtual Research Environment (NaaVRE) Platform
 
 
 The LifeWatch VRE platform is a Platform as a Service (PaaS) that provides a set of tools and services to support custom 
