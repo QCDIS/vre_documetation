@@ -35,7 +35,7 @@ The LifeWatch NaaVRE platform is a Platform as a Service (PaaS) that allows user
 
 ## Collaborative Virtual Labs
 
-A Collaborative Virtual Lab provides a customized profile, which allows a domain user to create a Virtual Lab instance on the NaaVRE platform. All the Virtual Lab instances of a Collaborative Virtual Lab can share data and workflows. A Virtual Lab is an extension of the Jupyter environment with specially developed extensions for containerizing Notebook cells, composing and executing workflows, and searching and sharing research objects.   
+A Collaborative Virtual Lab provides a customized profile, which allows a domain user to create a Virtual Lab instance on the NaaVRE platform. All the Virtual Lab instances of a Collaborative Virtual Lab can share data and workflows. A Virtual Lab is based on a Jupyter environment with specially developed extensions for containerizing Notebook cells, composing and executing workflows, and searching and sharing research objects.   
 
 ### Main Features
 * Containerization of cells 
