@@ -1,9 +1,7 @@
 # Virtual Research Environments
 
 Virtual research environments (VREs) provide user-centric support in the lifecycle of research activities, for example, 
-discovering and accessing research assets or composing and executing application workflows. The LifeWatch VRE platform 
-provides a workflow management system, a data management framework, and tools for enabling collaboration among users. 
-
+discovering and accessing research assets or composing and executing application workflows. The Notebook as a Virtual Research Environment (NaaVRE) platform is a VRE platform developed by LifeWatch VLIC; it allows users to create customizable Collaborative Virtual Labs to conduct domain research activities. 
 
 
 # Tutorials
@@ -21,25 +19,23 @@ experience with VRE.
 ## Notebook as a Virtual Research Environment (NaaVRE) Platform
 
 
-The LifeWatch VRE platform is a Platform as a Service (PaaS) that provides a set of tools and services to support custom 
-VREs.
+The LifeWatch NaaVRE platform is a Platform as a Service (PaaS) that allows users to create Collaborative Virtual Labs with customized runtime libraries, user interfaces, and workflow building blocks, and to conduct research activities in specific domains.
 
 ### Main Features
 
 * A user-friendly interface to the LifeWatch VRE platform
 * Overview of the running Virtual Labs (VLs)
 * Overview of executed workflows
-* Community based data products catalog
-* Community based geographical data products catalog
+* Community-based data products catalog
+* Community-based geographical data products catalog
 * Collaboration tools
   * Video conferencing with [jupyter-videochat](https://jupyter-videochat.readthedocs.io/en/latest/)
   * Git integration with [jupyterlab-git](https://pypi.org/project/jupyterlab-git/) 
 
 
-## Notebook as a Virtual Research Environment (NaaVRE)
+## Collaborative Virtual Labs
 
-The Notebook as a Virtual Research Environment (NaaVRE) is a set of tool build on top of JupiterLab that provides a
-user-friendly interface to the LifeWatch VRE platform. 
+A Collaborative Virtual Lab provides a customized profile, which allows a domain user to create a Virtual Lab instance on the NaaVRE platform. All the Virtual Lab instances of a Collaborative Virtual Lab can share data and workflows. A Virtual Lab is an extension of the Jupyter environment with specially developed extensions for containerizing Notebook cells, composing and executing workflows, and searching and sharing research objects.   
 
 ### Main Features
 * Containerization of cells 
