@@ -4,7 +4,7 @@ Virtual research environments (VREs) provide user-centric support in the lifecyc
 discovering and accessing research assets or composing and executing application workflows. The LifeWatch VRE platform 
 provides a workflow management system, a data management framework, and tools for enabling collaboration among users. 
 
-
+![Conceptual Architecture](images/conceptual_architecture.png)
 
 # Tutorials
 
@@ -14,12 +14,12 @@ experience with VRE.
 
 * [Tutorials](tutorials/README.md)
   * [Getting Started](tutorials/README.md#getting-started)
+  * [The NaaVRE Interface](tutorials/README.md#the-naavre-interface)
   * [Add Custom Module Names](tutorials/README.md#add-custom-module-names)
 
 
 
 ## Notebook as a Virtual Research Environment (NaaVRE) Platform
-
 
 The LifeWatch VRE platform is a Platform as a Service (PaaS) that provides a set of tools and services to support custom 
 VREs.

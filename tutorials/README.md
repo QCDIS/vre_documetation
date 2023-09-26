@@ -126,4 +126,21 @@ This time you should be able to see the progress of
 the workflow execution.
 ![Workflow Engine](images/workflow_engine_4.png)
 
+# The NaaVRE Interface
+
+The Notebook as a Virtual Research Environment (NaaVRE) is a set of tools to allow users to containerize cells, compose 
+workflows and execute them on a workflow engine. 
+
+![NaaVRE_interface](images/n-a-a-vre_interface_1.png)
+
+## Component Containerizer
+
+![Component Containerizer](images/component_containerizer_1.png)
+
+## Experiment Manager
+
+## Notebook Search
+
+
+
 # Add Custom Module Names
