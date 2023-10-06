@@ -136,11 +136,16 @@ workflows and execute them on a workflow engine.
 ## Component Containerizer
 
 ![Component Containerizer](images/component_containerizer_1.png)
+The 'Cell Preview' panel shows a preview of the cell that is currently selected including its name, inputs and outputs.
+Under the 'Cell Preview' panel there a list of the inputs and outputs of the cell and their types. The types are needed 
+to be filled in by the user when containerizing a cell. Currently, the supported types are:
+* String
+* Integer
+* Float
+* List
 
 ## Experiment Manager
 
 ## Notebook Search
-
-
 
 # Add Custom Module Names
