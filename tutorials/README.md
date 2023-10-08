@@ -144,6 +144,26 @@ to be filled in by the user when containerizing a cell. Currently, the supported
 * Float
 * List
 
+Under the 'Inputs' and 'Outputs' there is the 'Base Image' selection. This is the base image that will be used to build 
+the container. The default base image is 'miniconda3'. The user can select a different base image from the drop down. 
+
+
+### Special Variables 
+
+The user can use two special variables in the cell code:
+* `param_`: This variable is used to pass input parameters to the cell. These parameters are passed to the cell during 
+  execution and are requested by the user every time a workflow is executed that contains the cell with the parameters.
+
+
+* `conf_`: This variable is used to pass configuration parameters to all cells. `conf_` variables once deca-lied are visible
+ by all cells of the workflow. They can be thought of as 'global' variables therefore, they do not require to set their type
+ like other variables.
+
+![Component Containerizer](images/component_containerizer_conf_1.png)
+
+Notice in the image above that the `conf_b` variable is declared in the first cell and used in the second and third cell.
+However, the `conf_b` is not showing up as input in the second and third cell. 
+
 ## Experiment Manager
 
 ## Notebook Search
