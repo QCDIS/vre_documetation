@@ -1,9 +1,12 @@
 # Virtual Research Environments
 
 Virtual research environments (VREs) provide user-centric support in the lifecycle of research activities, for example, 
-discovering and accessing research assets or composing and executing application workflows. The Notebook as a Virtual Research Environment (NaaVRE) platform is a VRE platform developed by LifeWatch VLIC; it allows users to create customizable Collaborative Virtual Labs to conduct domain research activities. 
-![Conceptual Architecture](images/conceptual_architecture.png)
+discovering and accessing research assets or composing and executing application workflows. The Notebook as a Virtual Research Environment (NaaVRE) platform is a VRE platform developed by LifeWatch VLIC; it allows users to create customizable Collaborative Virtual Labs to conduct domain research activities [1]. 
 
+![Conceptual Architecture](images/Conceptual_Architecture.png)
+
+
+1. Zhao, Zhiming, Spiros Koulouzis, Riccardo Bianchi, Siamak Farshidi, Zeshun Shi, Ruyue Xin, Yuandou Wang et al. "Notebook‐as‐a‐VRE (NaaVRE): From private notebooks to a collaborative cloud virtual research environment." Software: Practice and Experience 52, no. 9 (2022): 1947-1966.
 # Tutorials
 
 This section of the documentation contains step-by-step tutorials that help outline the capabilities of Virtual Research 
