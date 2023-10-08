@@ -171,4 +171,10 @@ However, the `conf_b` is not showing up as input in the second and third cell.
 
 ## Notebook Search
 
+
+## Jupyterlab-git 
+
+In all VLs there is a Git integration with jupyterlab-git.
+To clone and push to a repository you can follow the instructions from here: [jupyterlab-git](https://pypi.org/project/jupyterlab-git/).
+
 # Add Custom Module Names
