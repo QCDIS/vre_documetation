@@ -153,14 +153,14 @@ the container. The default base image is 'miniconda3'. The user can select a dif
 The user can use two special variables in the cell code:
 * `param_`: This variable is used to pass input parameters to the cell. These parameters are passed to the cell during 
   execution and are requested by the user every time a workflow is executed that contains the cell with the parameters.
-[Screencast from 10-08-2023 01:58:25 PM.webm](https://github.com/QCDIS/vre_documetation/assets/9680609/fea3d96b-97d3-43cd-b009-b5bd4537de5a)
+[Param_example](https://github.com/QCDIS/vre_documetation/assets/9680609/fea3d96b-97d3-43cd-b009-b5bd4537de5a)
 
 
 
 * `conf_`: This variable is used to pass configuration parameters to all cells. `conf_` variables once deca-lied are visible
  by all cells of the workflow. They can be thought of as 'global' variables therefore, they do not require to set their type
  like other variables.
-[Screencast from 10-08-2023 02:03:03 PM.webm](https://github.com/QCDIS/vre_documetation/assets/9680609/f7020f7f-69d9-4916-bb56-83ed64cb98a8)
+[Conf_example](https://github.com/QCDIS/vre_documetation/assets/9680609/f7020f7f-69d9-4916-bb56-83ed64cb98a8)
 
 ![Component Containerizer](images/component_containerizer_conf_1.png)
 
