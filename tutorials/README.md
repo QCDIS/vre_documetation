@@ -169,7 +169,33 @@ However, the `conf_b` is not showing up as input in the second and third cell.
 
 ## Experiment Manager
 
+In the 'Experiment Manager' page you can compose and execute workflows. To compose a workflow click on the '+' button in
+the bottom right corner of the page and select the 'Cells Catalog' option.
+
+![Experiment Manager](images/experimenter_manager_7.png)
+
+After you have selected the the cells you want to compose a workflow with, click on the 'Add to Workspace' button.
+
+### Cells Catalog
+The cells catalog contains all the cells that have been containerized.
+
+![Cells Catalog](images/cells_catalog_1.png)
+
+
 ## Notebook Search
+
+In the 'Notebook Search' page you can search for notebooks relevant to your research. To search for notebooks click on 
+the icon in the middle left of the page. There you can search for notebooks. 
+
+![Notebook Search](images/notebook_search_1.png)
+
+The results will be displayed in the left panel. If you clik on a result you will be shown some relevant information 
+such its title, link, summary etc. If you click on the 'More' button you will be redirected to the notebook where you 
+can download it.
+
+![Notebook Search](images/notebook_search_2.png)
+
+![Notebook Search](images/notebook_search_3.png)
 
 
 ## Jupyterlab-git 
