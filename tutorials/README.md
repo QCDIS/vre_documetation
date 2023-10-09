@@ -176,6 +176,13 @@ the bottom right corner of the page and select the 'Cells Catalog' option.
 
 After you have selected the cells you want to compose a workflow with, click on the 'Add to Workspace' button.
 
+### Special Components
+
+In the 'Experiment Manager' page you can compose workflows using special components. These components are:
+* Splitter: This component is used to split an output array from a call into its elements and feed each element to the 
+  next cell. That way the next cell will be executed in parallel as many times as the number of elements in the array.
+* Merger: This component is used to merge the outputs of multiple cells into a single array. 
+
 ### Cells Catalog
 The cells catalog contains all the cells that have been containerized.
 
@@ -202,5 +209,3 @@ can download it.
 
 In all VLs there is a Git integration with jupyterlab-git.
 To clone and push to a repository you can follow the instructions from here: [jupyterlab-git](https://pypi.org/project/jupyterlab-git/).
-
-# Add Custom Module Names
