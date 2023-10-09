@@ -174,7 +174,7 @@ the bottom right corner of the page and select the 'Cells Catalog' option.
 
 ![Experiment Manager](images/experimenter_manager_7.png)
 
-After you have selected the the cells you want to compose a workflow with, click on the 'Add to Workspace' button.
+After you have selected the cells you want to compose a workflow with, click on the 'Add to Workspace' button.
 
 ### Cells Catalog
 The cells catalog contains all the cells that have been containerized.
