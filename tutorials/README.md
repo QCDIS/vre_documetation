@@ -4,7 +4,7 @@ This is a quick start guide to use basic functionality of the  LifeWatch Noteboo
 
 This is a screencast of the tutorial:
 
-[GettingStartedVRE.webm](https://github.com/QCDIS/vre_documetation/assets/9680609/8dd590ea-3276-4e24-a986-c47454786a0c)
+https://github.com/QCDIS/vre_documetation/assets/9514702/96853425-dcf9-4a63-9091-7db66634050d
 
 
 ## Notebook as a Virtual Research Environment (NaaVRE) Platform
