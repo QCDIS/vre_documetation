@@ -1,0 +1,21 @@
+name: Tests 
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: check docs
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: urls-checker
+        uses: urlstechie/urlchecker-action@master
+        with:
+          file_types: .md,yaml,json
+          retry_count: 3
+          #exclude_patterns: 
