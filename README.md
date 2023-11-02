@@ -15,7 +15,7 @@ experience with VRE.
 
 * [Tutorials](tutorials/README.md)
   * [Getting Started](tutorials/README.md#getting-started)
-  * [Add Custom Module Names](tutorials/README.md#add-custom-module-names)\
+  * [Add Custom Module Names](tutorials/README.md#add-custom-module-names)
 * [The NaaVRE Interface](NaaVRE_Interface/README.md#the-naavre-interface)
 
 
