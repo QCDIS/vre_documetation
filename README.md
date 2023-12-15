@@ -1,3 +1,5 @@
+**Note: The content of this repository is moved to https://github.com/QCDIS/NaaVRE-website**
+
 # Virtual Research Environments
 
 Virtual research environments (VREs) provide user-centric support in the lifecycle of research activities, for example, 
